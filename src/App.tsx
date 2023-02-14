@@ -2,12 +2,10 @@ import {useCountdown} from './utils';
 import './App.css';
 
 function App() {
-  const countDownDate = new Date("Feb 27, 2023 12:00:00").getTime();
-  const [days, hours, minutes, seconds] = useCountdown(countDownDate);
-
   const startDate = new Date("Feb 13, 2023 17:00:00").getTime();
   const endDate = new Date("Feb 27, 2023 12:00:00").getTime();
   const currentDate = new Date().getTime();
+  const [days, hours, minutes, seconds] = useCountdown(startDate);
 
   //time percents
   let x0 = currentDate - startDate;
