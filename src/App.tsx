@@ -5,7 +5,7 @@ function App() {
   const startDate = new Date("Feb 13, 2023 17:00:00").getTime();
   const endDate = new Date("Feb 27, 2023 12:00:00").getTime();
   const currentDate = new Date().getTime();
-  const [days, hours, minutes, seconds] = useCountdown(startDate);
+  const [days, hours, minutes, seconds] = useCountdown(endDate);
 
   //time percents
   let x0 = currentDate - startDate;
