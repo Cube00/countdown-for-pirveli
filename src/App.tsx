@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const startDate = new Date("Feb 13, 2023 17:00:00").getTime();
-  const endDate = new Date("Feb 27, 2023 12:00:00").getTime();
+  const endDate = new Date("Mar 23, 2023 12:00:00").getTime();
   const currentDate = new Date().getTime();
   const [days, hours, minutes, seconds] = useCountdown(endDate);
 
@@ -55,7 +55,7 @@ function App() {
                 </div>
                 <div className="countDownInfo">
                     <span>
-                        დაელოდე 27 თებერვალს და იყავი პირველი!
+                        დაელოდე 23 მარტს და იყავი პირველი!
                     </span>
                 </div>
             </div>
