@@ -60,7 +60,7 @@ function App() {
           <div className="countDownBarBtn" style={{ left: `${total}%` }}></div>
         </div>
         <div className="countDownInfo">
-          <span>დაელოდე 23 მარტს და იყავი პირველი!</span>
+          <span>დაელოდე 28 მარტს და იყავი პირველი!</span>
         </div>
       </div>
     </div>
